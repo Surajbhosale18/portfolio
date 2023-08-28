@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@600&family=Montserrat:wght@400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto+Slab&family=Roboto:wght@300;400;500&display=swap');
+*{
+	font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+body{
+	background-color: #4ff776;
+	filter: drop-shadow(0px 0px 10px black);
+
+}
+#main{
+	margin-top: 6%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid 3px white;
+	border-radius: 20px;
+	background-color: white;
+/*	overflow: visible;*/
+/*	background-image: url();*/
+/*	filter: drop-shadow(0px 0px 15px black);*/
+}
+#name{
+	margin-right: 100px;
+	color: #29f039 ;
+}
+#name:hover{
+	font-size: 40px;
+	transition-duration: 1s;
+}
+#navbar{
+	margin-left: 20px;
+	display: flex;
+/*	position: fixed;*/
+	z-index: 1;
+/*     overflow: hidden;*/
+	border: solid  white; 2px;
+	border-radius: 30px;
+	background-color: white;
+	filter: drop-shadow(5px 10px 5px black);
+
+}
+navbar::border{
+	padding-left: 16px;
+}
+.navlist{
+
+	padding-left: 140px;
+	padding-top: 40px;
+	margin-right: 0px;
+	font-weight: bolder;
+}
+#navbarname{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+.navlist:hover{
+	color: #29f039;
+	font-size: 20px;
+	cursor: pointer;
+	transition-duration: 1s;
+}
+
+#table{
+	width: 100%;
+}
+#img{
+	padding-left: 500px;
+}
+#home{
+	display: flex;
+	padding-top: 100px;
+}
+#mainimage{
+	filter: drop-shadow(35px -10px  #4ff776);
+}
+#intro{
+	padding-top: 50px;
+	padding-left: 50px;
+	width:500px;
+}
+#welcome{
+	color: #29f039 ;
+	font-weight: bolder;
+
+}
+#iam ,#suraj, #dev{
+   font-size: 30px;
+}
+#suraj{
+	font-weight: bolder;
+	color: #29f039;
+}
+#iam ,#suraj, #dev,#welcome{
+/*	filter: drop-shadow(50px 20px 10px black);*/
+}
+#btn{
+	border-style: none;
+	width: 125px;
+	height: 50px;
+	border-radius: 20px;
+	color: balck;
+	background-color: #29f039;
+	font-weight: bolder;
+	filter: drop-shadow(10px 10px 5px black);
+}
+
+#btn:hover{
+	border-style: solid;
+	width: 135px;
+	height: 60px;
+	border-radius: 30px;
+	color: balck;
+	background-color: #29f039;
+	font-weight: bolder;
+	transition-duration: 1s;
+	cursor: pointer;
+}
+#info{
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 40px;
+	text-indent: 25px;
+}
+#skills{
+	display: flex;
+	text-align: center;
+	margin-left: 40px;
+}
+#skillist{
+	margin-right: 140px;
+
+
+}
+#skills_heading{
+	color: #4ff776;
+}
+#project{
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+#project2{
+	padding-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+#projectname{
+/*	border: solid black 3px;*/
+	height: 420px;
+	width: 250px;
+	border-radius: 30px;
+	background-color: whitesmoke;
+filter: drop-shadow(10px 15px 5px black);
+overflow: visible;
+object-fit: cover;
+}
+#projectimage{
+	height: 300px;
+	width: 250px;
+	border-radius: 30px;
+
+
+
+}
+#github{
+	margin-bottom: 20px;
+	background-color:#4ff776 ;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	filter: drop-shadow(10px 10px 5px #4ff776);
+
+
+}
+#githubbtn{
+	padding-left: 70px;
+	padding-bottom: 70px;
+}
+#githublink{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+#contact{
+	width: 100%;
+		margin-right: 40px;
+	margin-left: 40px;
+	padding-top: 60px;
+	
+	justify-content: space-between;
+
+}
+input{
+width: 300px;
+height: 25px;
+border: solid black 2px;
+border-radius: 20px;
+margin-bottom: 70px;
+/*padding-right: 200px;*/
+margin-left: 60px;
+background-color: white;
+filter: drop-shadow(10px 1px 7px black);
+}
+input::placeholder{
+	text-align: center;
+	font-weight: bolder;
+}
+input[type="submit"]{
+	margin-left: 550px;
+	text-align: center;
+	border-style: none;
+	width: 125px;
+	height: 50px;
+	border-radius: 20px;
+	color: balck;
+	background-color: #29f039;
+	font-weight: bolder;
+	filter: drop-shadow(10px 10px 5px black);
+	margin-bottom: -120px;
+}
+input[type="submit"]:hover{
+	margin-left: 550px;
+	text-align: center;
+	border-style: none;
+	width: 135px;
+	height: 60px;
+
+	border-radius: 20px;
+	color: balck;
+	background-color: #29f039;
+	font-weight: bolder;
+	transition-duration: 1s;
+
+}
+
+#projectname:hover {
+
+	height: 435px;
+	width: 265px;
+	border-radius: 30px;
+	background-color: whitesmoke;
+filter: drop-shadow(10px 15px 5px black);
+overflow: visible;
+object-fit: cover;
+transition-duration: 1s;
+
+}
+#projectimage:hover{
+	height: 315px;
+	width: 265px;
+	border-radius: 30px;
+	transition-duration: 1s;
+
+	}
+
+	#projectname:hover #projectimage{
+		
+	height: 315px;
+	width: 265px;
+	border-radius: 30px;
+	transition-duration: 1s;
+
+	
+
+	}
+
+	#smedia{
+		height: 25px;
+		width: 25px;
+		padding-right: 50px;
+		filter: drop-shadow(10px 0px 7px black);
+	}
+#social_media{
+	padding-top: 100px;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+#smedia2{
+	height: 35px;
+		width: 35px;
+		padding-right: 50px;
+		filter: drop-shadow(10px 0px 7px black);
+	}
+
+}
+
