@@ -9,7 +9,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 body{
-	background-color: #4ff776;
+	background-color: #8f6dab;
 	filter: drop-shadow(0px 0px 10px black);
 
 }
@@ -26,7 +26,7 @@ body{
 }
 #name{
 	margin-right: 100px;
-	color: #29f039 ;
+	color: #b086d4;
 }
 #name:hover{
 	font-size: 40px;
@@ -60,7 +60,7 @@ navbar::border{
 	font-weight: bolder;
 }
 .navlist:hover{
-	color: #29f039;
+	color: #b086d4;
 	font-size: 20px;
 	cursor: pointer;
 	transition-duration: 1s;
@@ -77,7 +77,7 @@ navbar::border{
 	padding-top: 100px;
 }
 #mainimage{
-	filter: drop-shadow(35px -10px  #4ff776);
+	filter: drop-shadow(35px -10px  #b086d4);
 }
 #intro{
 	padding-top: 50px;
@@ -85,7 +85,7 @@ navbar::border{
 	width:500px;
 }
 #welcome{
-	color: #29f039 ;
+	color: #b086d4 ;
 	font-weight: bolder;
 
 }
@@ -94,7 +94,7 @@ navbar::border{
 }
 #suraj{
 	font-weight: bolder;
-	color: #29f039;
+	color: #b086d4;
 }
 #iam ,#suraj, #dev,#welcome{
 /*	filter: drop-shadow(50px 20px 10px black);*/
@@ -105,7 +105,7 @@ navbar::border{
 	height: 50px;
 	border-radius: 20px;
 	color: balck;
-	background-color: #29f039;
+	background-color: #b086d4;
 	font-weight: bolder;
 	filter: drop-shadow(10px 10px 5px black);
 }
@@ -116,7 +116,7 @@ navbar::border{
 	height: 60px;
 	border-radius: 30px;
 	color: balck;
-	background-color: #29f039;
+	background-color: #b086d4;
 	font-weight: bolder;
 	transition-duration: 1s;
 	cursor: pointer;
@@ -138,7 +138,7 @@ navbar::border{
 
 }
 #skills_heading{
-	color: #4ff776;
+	color: #b086d4;
 }
 #project{
 	margin-right: 40px;
@@ -174,11 +174,11 @@ object-fit: cover;
 }
 #github{
 	margin-bottom: 20px;
-	background-color:#4ff776 ;
+	background-color:#b086d4 ;
 	width: 100px;
 	height: 30px;
 	border-radius: 10px;
-	filter: drop-shadow(10px 10px 5px #4ff776);
+	filter: drop-shadow(10px 10px 5px #b086d4);
 
 
 }
@@ -223,7 +223,7 @@ input[type="submit"]{
 	height: 50px;
 	border-radius: 20px;
 	color: balck;
-	background-color: #29f039;
+	background-color: #89CFF0;
 	font-weight: bolder;
 	filter: drop-shadow(10px 10px 5px black);
 	margin-bottom: -120px;
@@ -237,7 +237,7 @@ input[type="submit"]:hover{
 
 	border-radius: 20px;
 	color: balck;
-	background-color: #29f039;
+	background-color: #89CFF0;
 	font-weight: bolder;
 	transition-duration: 1s;
 
@@ -292,5 +292,13 @@ transition-duration: 1s;
 		filter: drop-shadow(10px 0px 7px black);
 	}
 
-}
+
+
+
+@media (max-width:200px) and (max-height:300px){
+			body{
+				background-color: black;
+				
+			}
+		}
 
